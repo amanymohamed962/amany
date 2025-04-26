@@ -1,0 +1,93 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(to right, #fae5fa, #fff);
+    direction: rtl;
+}
+
+  ul, ol {
+    direction: rtl;
+    list-style-position: inside;
+    text-align: right;
+  }
+  
+#geomatics{
+    background-color: rgb(108, 48, 168);
+    text-align: center;
+}
+.card{
+    background-color: antiquewhite;
+    display: inline-block;
+  width: 80%;
+}
+h3{
+    color:sienna;
+}
+#T{
+color: rgb(108, 48, 168);
+}
+h4{
+    color: rgb(0, 0, 0);
+}
+#add{
+    font-size: 50px;
+color: rgb(108, 48, 168);
+text-align: center;
+background-color:antiquewhite;
+margin: 50px;
+padding: 30px;
+border: rgb(108, 48, 168) solid;
+}
+
+هخلي العناوين الاتشات  تكون اكثر بروزا 
+h1, h2, h3 {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin: 20px 0;
+}
+
+هغير شكل الزراير 
+button {
+    background-color: rgb(108, 48, 168);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: rgb(30, 136, 140);
+}
+هحسن شكل الفورم
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 20px auto;
+}
+input, textarea, select {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+th , td{
+    border: solid rgb(0, 0, 0) 3px;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color: bisque;
+}
+td{
+    background-color: rgb(249, 240, 228);
+}
+.btn{
+    background-color: rgb(223, 223, 224);
+    padding: 20px;
+    border-color:black;
+    margin: 10px;
+}
